@@ -1,4 +1,4 @@
-package com.snpsu.Day5.ExceptionHandling;
+package com.snpsu.Day5_6.ExceptionHandling;
 
 public class E1 {
     public static void main() {

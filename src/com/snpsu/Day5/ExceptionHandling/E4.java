@@ -1,6 +1,4 @@
-package com.snpsu.Day5.ExceptionHandling;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+package com.snpsu.Day5_6.ExceptionHandling;
 import java.util.Scanner;
 public class E4 {
     static void main(String[] args) throws Exception{

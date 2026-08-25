@@ -1,4 +1,4 @@
-package com.snpsu.Day5.waysofCreatingThreads;
+package com.snpsu.Day5_6.waysofCreatingThreads;
 
 public  class MyThread extends Thread{
 

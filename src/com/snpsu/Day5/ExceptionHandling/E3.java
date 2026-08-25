@@ -1,4 +1,4 @@
-package com.snpsu.Day5.ExceptionHandling;
+package com.snpsu.Day5_6.ExceptionHandling;
 //inbuilt exception
 public class E3 {
     static void main() {

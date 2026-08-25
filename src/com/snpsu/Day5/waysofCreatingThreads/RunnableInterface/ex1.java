@@ -1,4 +1,4 @@
-package com.snpsu.Day5.waysofCreatingThreads.RunnableInterface;
+package com.snpsu.Day5_6.waysofCreatingThreads.RunnableInterface;
 
  class ex1 implements Runnable {//this is task
      @Override

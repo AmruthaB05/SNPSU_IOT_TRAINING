@@ -1,4 +1,4 @@
-package com.snpsu.Day5.Threading.Singlethread;
+package com.snpsu.Day5_6.Threading.Singlethread;
 
 public class Demo {
     static void main(String[] args) {
