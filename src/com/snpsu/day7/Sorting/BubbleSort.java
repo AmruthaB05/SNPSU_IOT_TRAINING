@@ -3,7 +3,7 @@ package com.snpsu.day7.Sorting;
 public class BubbleSort {
       static int[] bubblesort(int[] arr){
           for(int i=0;i< arr.length-1;i++){
-              for(int j=i+1;j< arr.length;j++){
+              for(int j=i+1;j< arr.length;j++){//j=0;j<arr.length-i-1
                   if(arr[i]>arr[j]){
                       int temp=arr[i];
                       arr[i]=arr[j];
