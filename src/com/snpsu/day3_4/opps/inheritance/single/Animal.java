@@ -1,11 +1,11 @@
 package com.snpsu.day3_4.opps.inheritance.single;
 
-public class Animal {
+public class Animal {//parent class
     void eat(){
         System.out.println("eating...");
     }
 }
-class Dog extends Animal{
+class Dog extends Animal{//child class
     void barks(){
         System.out.println("Barking");
     }

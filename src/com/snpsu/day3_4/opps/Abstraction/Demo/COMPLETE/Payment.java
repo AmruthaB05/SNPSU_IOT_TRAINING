@@ -5,6 +5,13 @@ public interface Payment {
     default void refund(){
         System.out.println("Refund");
     }
+    static void display(){
+        System.out.println("static function");
+        //hello();
+    }
+    private void hello(){
+        System.out.println("helo");
+    }
 }
 class UPI implements Payment{
     @Override
@@ -29,6 +36,8 @@ class Drivercode{
     static void main() {
       Payment p = new UPI();
         p.pay();
+        p.refund();
+        Payment.display();
         Payment p1 = new Cash();
         p1.pay();
         Payment p2 = new CreditCard();

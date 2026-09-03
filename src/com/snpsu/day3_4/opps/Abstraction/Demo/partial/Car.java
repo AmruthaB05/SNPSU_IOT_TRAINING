@@ -15,6 +15,7 @@ class Drivercode{
     static void main() {
        Bmw b=new Bmw();
        b.start();
+       b.brake();
 
     }
 }

@@ -2,6 +2,7 @@ package com.snpsu.day3_4.opps.constructor;
 
 public class Demo {
     Demo(){
+
         System.out.println("i am constructor");
     }
     public static void main(String[] args) {

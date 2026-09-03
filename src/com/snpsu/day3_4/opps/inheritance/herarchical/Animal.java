@@ -21,7 +21,9 @@ public class Animal {
          Dog d=new Dog();
          Cat c=new Cat();
          a.eat();
-        a.eat();
-        a.eat();
+          d.bark();
+          d.eat();
+          c.meow();
+          c.eat();
      }
  }

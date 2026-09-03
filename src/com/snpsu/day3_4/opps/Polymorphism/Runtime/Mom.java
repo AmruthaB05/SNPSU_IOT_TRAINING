@@ -6,9 +6,9 @@ package com.snpsu.day3_4.opps.Polymorphism.Runtime;
     }
 }
 class Daughter extends Mom{
-    /*void cook(){
+    void cook(){
         System.out.println("chineeese..");
-    }*/
+    }
 }
 class Drivercode{
     static void main() {

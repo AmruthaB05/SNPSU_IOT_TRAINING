@@ -37,9 +37,48 @@ public class SLL {
 
 
     }
+
+    void deleteAtHead(){
+        if(head==null){
+            System.out.println("linked list is empty");
+            return;
+        }
+        Node toBedeleted=head;
+
+        head=head.next;
+        toBedeleted=null;//call garabage collection
+
+    }
+
+    void deletedByvalue(int val){
+        if(head==null){
+            System.out.println("empty linked list");
+            return;
+        }
+
+        if(head.data==val){
+            Node tod=head;
+            tod=null;
+            return;
+
+        }
+        Node temp=head;
+        while(temp.next!=null&&temp.next.data!=val){
+            temp=temp.next;
+        }
+        if(temp.next==null){
+            System.out.println("value not found");
+            return;
+        }
+        Node todel=temp.next;
+        temp.next=temp.next.next;
+        todel=null;
+      //  temp.next=temp.next.next;
+    }
+
     int gettllsize(){
         int size=0;
-        Node temp=head;
+       Node temp=head;
         while(temp!=null){
             temp=temp.next;
             size++;
@@ -48,7 +87,7 @@ public class SLL {
     }
     void insertAtPos(int val,int pos){
         Node n=new Node(val);
-        Node temp=head;
+      Node temp=head;
         int size=gettllsize();
         if(pos<0||pos>size){
             System.out.println("invalid position");
@@ -92,7 +131,10 @@ class Driver4{
         sll.insertAtHead(12);
         sll.insertAtHead(14);
         sll.printSll();
-        sll.insertAtPos(500,0);
+       // sll.insertAtPos(500,0);
+       // sll.printSll();
+       // sll.deleteAtHead();
+        sll.deletedByvalue(14);
         sll.printSll();
 
     }
